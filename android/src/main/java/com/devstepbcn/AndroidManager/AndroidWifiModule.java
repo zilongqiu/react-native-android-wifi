@@ -1,4 +1,4 @@
-package com.devstepbcn.wifi;
+package com.devstepbcn.AndroidWifi;
 
 import com.facebook.react.uimanager.*;
 import com.facebook.react.bridge.*;
@@ -53,7 +53,7 @@ public class AndroidWifiModule extends ReactContextBaseJavaModule {
 	//Name for module register to use:
 	@Override
 	public String getName() {
-		return "AndroidWifiModule";
+		return "AndroidWifi";
 	}
 
 	//Method to load wifi list into string via Callback. Returns a stringified JSONArray

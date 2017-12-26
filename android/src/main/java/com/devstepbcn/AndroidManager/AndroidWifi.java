@@ -1,4 +1,4 @@
-package com.devstepbcn.wifi;
+package com.devstepbcn.AndroidWifi;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,7 +10,7 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 
-public class AndroidWifiPackage implements ReactPackage {
+public class AndroidWifi implements ReactPackage {
 
   @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
